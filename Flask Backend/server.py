@@ -1,10 +1,9 @@
 from flask import Flask, jsonify, request, make_response
-from flask_cors import CORS  # Important for Flutter web
+from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)
 
-# Mock database
 courses = []
 
 
@@ -22,11 +21,10 @@ def create_course():
         return jsonify({"error": "Missing required fields"}), 400
 
     new_course = request.json
-    new_course["id"] = str(len(courses) + 1)  # Ensure ID is generated
+    new_course["id"] = str(len(courses) + 1)
     courses.append(new_course)
 
-    # Return the full course object with ID
-    return jsonify(new_course), 201  # 201 = Created
+    return jsonify(new_course), 201
 
 @app.route('/courses/<id>', methods=['PUT'])
 def update_course(id):
