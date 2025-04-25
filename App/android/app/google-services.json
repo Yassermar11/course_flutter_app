@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "501247457022",
+    "project_id": "fir-flutter-codelab-e91b6",
+    "storage_bucket": "fir-flutter-codelab-e91b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501247457022:android:0a2d7f95bf6150938fd7af",
+        "android_client_info": {
+          "package_name": "com.example.course_flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCKSYwGpnYx8MEtESbyexKQlB7wjLks8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501247457022:android:211a50eec24f175a8fd7af",
+        "android_client_info": {
+          "package_name": "com.example.dog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCKSYwGpnYx8MEtESbyexKQlB7wjLks8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501247457022:android:56ebc1db6155780d8fd7af",
+        "android_client_info": {
+          "package_name": "com.example.gtk_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCKSYwGpnYx8MEtESbyexKQlB7wjLks8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

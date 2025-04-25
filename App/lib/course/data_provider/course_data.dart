@@ -3,7 +3,7 @@ import 'package:course_flutter_app/course/models/course.dart';
 import 'package:http/http.dart' as http;
 
 class CourseDataProvider {
-  final _baseUrl = 'http://192.168.245.128:3200';
+  final _baseUrl = 'http://192.168.245.129:3400';
   final http.Client httpClient;
 
   CourseDataProvider({required this.httpClient});

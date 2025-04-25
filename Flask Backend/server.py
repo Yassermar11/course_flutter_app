@@ -5,10 +5,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Mock database
-courses = [
-    {"id": "1", "title": "Flutter Basics", "code": "FLT101", "description": "Introduction to Flutter", "ects": 5},
-    {"id": "2", "title": "Dart Programming", "code": "DRT201", "description": "Dart language fundamentals", "ects": 4}
-]
+courses = []
+
 
 @app.route('/courses', methods=['GET'])
 def get_courses():
@@ -45,4 +43,4 @@ def delete_course(id):
     return '', 204
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3200, debug=True)
+    app.run(host='0.0.0.0', port=3400, debug=True)
