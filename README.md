@@ -91,7 +91,7 @@ A full-stack application for managing university courses, built with a Flutter f
 
 ## 📝 Notes
 
-- 🧠 The backend uses in-memory storage; data will reset when the server restarts.
+- 🧠 The backend uses in-memory storage, data will reset when the server restarts.
 - 🔄 The frontend communicates with the backend using HTTP requests.
 
 ---
